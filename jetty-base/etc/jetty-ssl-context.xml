@@ -17,7 +17,9 @@
     <Set name="renegotiationAllowed">false</Set>
     <Set name="excludeProtocols">
       <Array type="String">
-        <Item>SSL SSLv2 SSLv3</Item>
+        <Item>SSL</Item>
+        <Item>SSLv2</Item>
+        <Item>SSLv3</Item>
       </Array>
     </Set>
     <Set name="IncludeCipherSuites">
